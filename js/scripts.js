@@ -25,6 +25,8 @@ $(document).ready(function(){
     sideThree = parseInt($("input#sideThree").val(""));
 
   $("#result").text(result);
+  $("#result").show(result);
+
   event.preventDefault();
   });
 });
