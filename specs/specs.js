@@ -15,5 +15,4 @@ describe('triangles', function() {
   it("is a scalene triangle", function() {
     expect(triangles(2,4,5)).to.equal("scalene");
   });
-
 });
