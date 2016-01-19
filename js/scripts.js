@@ -1,8 +1,11 @@
 var triangles = function(sideOne, sideTwo, sideThree) {
   if (sideOne <= (sideTwo + sideThree) && sideTwo <= (sideOne + sideThree) && sideThree <= (sideOne + sideTwo)) {
-
-  } else {
-    return "Not a triangle"
+    if(sideOne === sideTwo && sideTwo === sideThree) {
+      return "equilateral"
+    }
+  }
+  else {
+    return "not a triangle"
   }
 
 };
