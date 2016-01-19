@@ -8,4 +8,8 @@ describe('triangles', function() {
     expect(triangles(5,5,5)).to.equal("equilateral");
   });
 
+  it("is an isosceles triangle", function() {
+    expect(triangles(5,5,8)).to.equal("isosceles");
+  });
+
 });
