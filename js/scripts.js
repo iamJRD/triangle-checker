@@ -4,6 +4,8 @@ var triangles = function(sideOne, sideTwo, sideThree) {
       return "equilateral";
     } else if (sideOne === sideTwo || sideTwo === sideThree || sideOne === sideThree) {
       return "isosceles";
+    } else {
+      return "scalene";
     }
   } else {
     return "not a triangle";
