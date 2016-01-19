@@ -20,10 +20,6 @@ $(document).ready(function(){
     var sideThree = parseInt($("input#sideThree").val());
     var result = triangles(sideOne, sideTwo, sideThree);
 
-    sideOne = parseInt($("input#sideOne").val(""));
-    sideTwo = parseInt($("input#sideTwo").val(""));
-    sideThree = parseInt($("input#sideThree").val(""));
-
   $("#result").text(result);
   $("#result").show(result);
 
