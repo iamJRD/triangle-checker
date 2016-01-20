@@ -26,3 +26,5 @@ $(document).ready(function(){
   event.preventDefault();
   });
 });
+
+/* Very elegant! Doesn't look like it could be refactored, nicely done.*/
